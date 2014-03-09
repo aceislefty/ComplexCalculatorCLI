@@ -1,6 +1,6 @@
 /*
  * File:	Main.cpp					Version	:	1.0	(Stable)						() = type
- * Author: 	Sagi Dayan					ID		:	300242435							[] = variable name
+ * Author: 	Sagi Dayan																	[] = variable name
  * Email:	sagidayan@gmail.com							 								[P] = private method
  *
  *								________________________JCE 2014______________________________
