@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4B6EC8C-5707-4B16-B05B-0427CE3E378A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Ex31</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Complex.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Tester.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Complex.h" />
+    <ClInclude Include="Tester.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="soundfiles\0.wav" />
+    <Media Include="soundfiles\1.wav" />
+    <Media Include="soundfiles\10.wav" />
+    <Media Include="soundfiles\100.wav" />
+    <Media Include="soundfiles\1000.wav" />
+    <Media Include="soundfiles\11.wav" />
+    <Media Include="soundfiles\12.wav" />
+    <Media Include="soundfiles\13.wav" />
+    <Media Include="soundfiles\14.wav" />
+    <Media Include="soundfiles\15.wav" />
+    <Media Include="soundfiles\16.wav" />
+    <Media Include="soundfiles\17.wav" />
+    <Media Include="soundfiles\18.wav" />
+    <Media Include="soundfiles\19.wav" />
+    <Media Include="soundfiles\2.wav" />
+    <Media Include="soundfiles\20.wav" />
+    <Media Include="soundfiles\200.wav" />
+    <Media Include="soundfiles\3.wav" />
+    <Media Include="soundfiles\30.wav" />
+    <Media Include="soundfiles\300.wav" />
+    <Media Include="soundfiles\4.wav" />
+    <Media Include="soundfiles\40.wav" />
+    <Media Include="soundfiles\400.wav" />
+    <Media Include="soundfiles\5.wav" />
+    <Media Include="soundfiles\50.wav" />
+    <Media Include="soundfiles\500.wav" />
+    <Media Include="soundfiles\6.wav" />
+    <Media Include="soundfiles\60.wav" />
+    <Media Include="soundfiles\600.wav" />
+    <Media Include="soundfiles\7.wav" />
+    <Media Include="soundfiles\70.wav" />
+    <Media Include="soundfiles\700.wav" />
+    <Media Include="soundfiles\8.wav" />
+    <Media Include="soundfiles\80.wav" />
+    <Media Include="soundfiles\800.wav" />
+    <Media Include="soundfiles\9.wav" />
+    <Media Include="soundfiles\90.wav" />
+    <Media Include="soundfiles\900.wav" />
+    <Media Include="soundfiles\add.wav" />
+    <Media Include="soundfiles\divide.wav" />
+    <Media Include="soundfiles\divided_by.wav" />
+    <Media Include="soundfiles\hundred.wav" />
+    <Media Include="soundfiles\i.wav" />
+    <Media Include="soundfiles\is.wav" />
+    <Media Include="soundfiles\left.wav" />
+    <Media Include="soundfiles\million.wav" />
+    <Media Include="soundfiles\minus.wav" />
+    <Media Include="soundfiles\multiplied_by.wav" />
+    <Media Include="soundfiles\multiply.wav" />
+    <Media Include="soundfiles\plus.wav" />
+    <Media Include="soundfiles\point.wav" />
+    <Media Include="soundfiles\subtract.wav" />
+    <Media Include="soundfiles\thousand.wav" />
+    <Media Include="soundfiles\times.wav" />
+    <Media Include="soundfiles\toggle.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

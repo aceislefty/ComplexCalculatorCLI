@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tester.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="soundfiles\plus.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\1000.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\add.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\divide.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\divided_by.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\hundred.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\i.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\is.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\left.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\million.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\minus.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\multiplied_by.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\multiply.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\point.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\subtract.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\thousand.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\times.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\3.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\4.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\5.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\6.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\7.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\8.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\9.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\10.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\11.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\12.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\13.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\14.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\15.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\16.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\17.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\18.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\19.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\20.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\30.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\40.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\50.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\60.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\70.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\80.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\90.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\100.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\200.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\300.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\400.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\500.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\600.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\700.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\800.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\900.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\toggle.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="soundfiles\0.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

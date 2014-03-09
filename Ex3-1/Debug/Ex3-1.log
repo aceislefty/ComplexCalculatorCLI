@@ -1,0 +1,32 @@
+﻿Build started 1/9/2014 2:51:49 PM.
+Project "E:\C++\Visual Studio\Ex3\Ex3-1\Ex3-1\Ex3-1.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Calculator.cpp Complex.cpp Main.cpp
+  Complex.cpp
+e:\c++\visual studio\ex3\ex3-1\ex3-1\complex.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+e:\c++\visual studio\ex3\ex3-1\ex3-1\complex.cpp(97): warning C4018: '<' : signed/unsigned mismatch
+e:\c++\visual studio\ex3\ex3-1\ex3-1\complex.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+e:\c++\visual studio\ex3\ex3-1\ex3-1\complex.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+  Calculator.cpp
+e:\c++\visual studio\ex3\ex3-1\ex3-1\calculator.cpp(35): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+          c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+e:\c++\visual studio\ex3\ex3-1\ex3-1\calculator.cpp(254): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+          c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+e:\c++\visual studio\ex3\ex3-1\ex3-1\calculator.cpp(265): warning C4018: '<' : signed/unsigned mismatch
+e:\c++\visual studio\ex3\ex3-1\ex3-1\calculator.cpp(276): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+          c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+  Generating Code...
+  Compiling...
+  Main.cpp
+  Generating Code...
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\Visual Studio\Ex3\Ex3-1\Debug\Ex3-1.exe" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\C++\Visual Studio\Ex3\Ex3-1\Debug\Ex3-1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++\Visual Studio\Ex3\Ex3-1\Debug\Ex3-1.lib" /MACHINE:X86 Debug\Calculator.obj
+  Debug\Complex.obj
+  Debug\Main.obj
+  Debug\Tester.obj
+  Ex3-1.vcxproj -> E:\C++\Visual Studio\Ex3\Ex3-1\Debug\Ex3-1.exe
+Done Building Project "E:\C++\Visual Studio\Ex3\Ex3-1\Ex3-1\Ex3-1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.05
